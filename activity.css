@@ -1,9 +1,3 @@
-body{
-    background-color: ghostwhite;
-}
-button:hover{
-    background-color: cornflowerblue;
-    transition: 2s;
-    cursor: pointer;
-    color: ghostwhite;
+main {transform:skewY(-10deg)
+
 }

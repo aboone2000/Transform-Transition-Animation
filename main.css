@@ -2,26 +2,18 @@
 
 body  {
   font-family: 'Josefin Sans', sans-serif;
-  text-align: center;
 }
-
-.caption {
-  width: 80%;
+main {
+  background-color: mediumaquamarine;
+  height: 90vh;
+  width: 100vh;
   margin: auto;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 
-img {
-  width: 80%;
-}
-
-button {
-  padding: 1em;
-  margin: .2em;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.5em;
-}
-
-button:hover {
-  background-color: cornflowerblue;
+main > div {
+  width: 40%;
+  margin: auto;
+  padding: 10%;
 }
